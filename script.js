@@ -25,8 +25,6 @@
 // console.log(`jadi detik ny adalah ${hasil}`);
 
 
-
-
 // no 3\
 
 
@@ -37,6 +35,8 @@ let sisaDetik = totalDetik % 3600;
 let menit = Math.floor(sisaDetik / 60);
 let detik = sisaDetik % 60 ;
 console.log(`${jam} jam ${menit} menit ${detik} detik`)
+
+
 
 
 
