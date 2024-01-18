@@ -58,8 +58,6 @@ console.log(`${jam} jam ${menit} menit ${detik} detik`)
 
 
 
-
-
 // 
 
 

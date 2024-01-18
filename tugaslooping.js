@@ -10,7 +10,6 @@ for(let i = 0;i<50;i++){
 
 
 // ini while
-
 let count = 1;
 while(count <= 10){
     if(count % 2 === 0){

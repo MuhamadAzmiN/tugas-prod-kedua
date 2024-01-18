@@ -92,14 +92,33 @@
                 dayName =  "Opo iki";
         }
         
-        
-        
-
         console.log(` golongan anda adalah ${g} tanggal lahir anda ${dd} ${dayName} tahun ${yyy} nomor urut ${nn}`)
+        let jam = 2;
+        let menit = 0;
+        let detik = 59;
+        let tambahDetik = detik + 1;
+        let Hasildetik = detik;
+        let HasilMenit = menit;
+        let Hasiljam = jam;
 
+    if (tambahDetik > 59) {
+        Hasildetik = 0;
+        HasilMenit++;
+}
 
+if (HasilMenit > 59) {
+    Hasildetik = detik;
+    HasilMenit = 0;
+    Hasiljam++;
+}
 
+if (Hasiljam > 23) {
+    Hasildetik = detik;
+    HasilMenit = 0;
+    Hasiljam = 0;
+}
 
+console.log(`${Hasiljam} jam ${HasilMenit} menit ${Hasildetik} detik`);
 
         
         
