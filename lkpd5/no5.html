@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// Inisialisasi variabel terbesar dan terkecil
+let terkecil =0;
+let terbesar = 0;
+let total = 0
+for(let i = 0;i<=20;i++){
+    let input = parseInt(prompt("masukan angka", i));
+    total += input
+    if(i < terkecil){
+        terkecil = i;
+        
+    }if(i > terbesar){
+        terbesar = i;
+    }
+    
+}
+let rataRata = total / 20;
+
+console.log(`nilai terbesar nya adalah ${terbesar}`)
+console.log(`nilai terkecil nya adalah ${terkecil}`)
+console.log(`nilai rata rata nya adalah ${rataRata}`)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
